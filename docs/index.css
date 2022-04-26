@@ -91,7 +91,7 @@ html>body{
   left:42%;
   height:1px;
   background-color:#000000;
-   transition: width .3s;
+  transition: width .3s;
   transform:translateX(-50%);
 }
 
@@ -195,7 +195,3 @@ html>body{
   transition:all 1.2s 1.2s;
 }
 
-.section-1.aos-animate .bg-video{
-  visibility:hidden;
-  transition:all 4s 4s;
-}

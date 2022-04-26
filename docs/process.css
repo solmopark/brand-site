@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+html>body {
+  font-family: 'Roboto', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (min-width:1900px) {
+  body {
+    overflow-x: hidden;
+  }
+}
+
+/* 스크롤바 꾸미기 시작 */
+:root {
+  overflow-y: overlay;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(45, 45, 45, 0.3);
+  border-radius: 0;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+/* 스크롤바 꾸미기 끝 */
+
+
+:root {
+  --site-width: 1920px;
+}
+
+.con {
+  width: var(--site-width);
+  position: relative;
+}
+
+
+section.section {
+  width: var(--site-width);
+  min-height: 700px;
+}
+
+section.section.section-1.gojung-box {
+  background-repeat: no-repeat;
+  height: 1080px;
+}
+
+/*---- home ----*/
+.nemo-box {
+  width: 1720px;
+  height: 880px;
+  border: 1px solid #c8c8c8;
+  border-radius: 20px;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+
+.left-item .menu-box {
+  padding: 20px;
+
+}
+
+.left-item .menu-box .menu-1 li>a {
+  position: relative;
+  color: #c8c8c8;
+  font-weight: 400;
+  padding: 14px;
+  display: block;
+  white-space: nowrap;
+  transition: font-size .3s;
+  font-size: 16px;
+}
+
+.left-item .menu-box .menu-1 li:hover>a {
+  color: black;
+  font-weight: 800;
+  transform: scale(1.2);
+}
+
+/* 메뉴-밑줄 */
+.menu-box .menu-1>li>a::after {
+  content: "";
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  height: 1px;
+  background-color: #000000;
+  transition: width .3s;
+  transform: translateX(-50%);
+}
+
+.menu-box .menu-1>li>.af-1::after {
+  content: "";
+  position: absolute;
+  bottom: 50%;
+  left: 42%;
+  height: 1px;
+  background-color: #000000;
+  transition: width .3s;
+  transform: translateX(-50%);
+}
+
+.menu-box .menu-1>li:hover>a::after {
+  width: calc(100% - 15px);
+}
+
+.menu-box .menu-1>li:hover>.af-1::after {
+  width: calc(100% - 32px);
+}
+
+.bg-white {
+  margin-right: 28px;
+  margin-bottom: 12px;
+}
+
+/* 외쪽 아이콘 */
+.left-item .icon-box {
+  padding-left: 35px;
+}
+
+.left-item .icon-box .ico_1 li {
+  padding-top: 18px;
+}
+
+/* 오른쪽-메뉴 */
+.right-item {
+  margin-top: 100px;
+  margin-right: 100px;
+  margin-bottom: 100px;
+  padding-top: 45px;
+  padding-left: 45px;
+  padding-right: 50px;
+
+}
+
+.right-item .one-1 {
+  padding: 25px;
+  padding-bottom: 60px;
+}
+
+.right-item .one-1 a {
+  text-align: center;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+
+
+/* arrows-1 */
+.scroll-1 {
+  animation-name: scroll;
+  animation-duration: 2.2s;
+  animation-timing-function: cubic-bezier(.15, .41, .69, .94);
+  animation-iteration-count: infinite;
+}
+
+@keyframes scroll {
+  0% {
+    opacity: 0;
+  }
+
+  10% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(15px);
+    opacity: 0.5;
+  }
+}
+
+.arrows-1 {
+  width: 40px;
+  height: 70px;
+}
+
+.arrows-1>div {
+  margin: 6px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  animation: arrow-1 2s infinite;
+  -webkit-animation: arrow-1 2s infinite;
+}
+
+.arrows-1 .a1 {
+  margin-left: 7px;
+  background-color: #b7b7b7;
+  animation-delay: -1s;
+  -webkit-animation-delay: -1s;
+}
+
+.arrows-1 .a2 {
+  margin-left: 7px;
+  background-color: #898989;
+  animation-delay: -0.5s;
+  -webkit-animation-delay: -0.5s;
+}
+
+.arrows-1 .a3 {
+  width: 10px;
+  height: 10px;
+  background-color: #5c5c5c;
+  animation-delay: 0s;
+  -webkit-animation-delay: 0s;
+}
+
+@keyframes arrow-1 {
+  0% {
+    opacity: 0
+  }
+
+  40% {
+    opacity: 1
+  }
+
+  80% {
+    opacity: 0
+  }
+
+  100% {
+    opacity: 0
+  }
+}
+
+
+/*---- process  ----*/
+.typo-box main {
+  transition: all 0.5s;
+  -webkit-text-stroke: 4px #123dfc;
+  font-variation-settings: "wght"900, "ital"1;
+  font-size: 140px;
+  text-align: center;
+  color: transparent;
+  text-shadow: 10px 10px 0px #fff,
+    15px 15px 0px #CBD4FF,
+    20px 20px 0px #B7C4FF,
+    25px 25px 0px #9AACFF,
+    45px 45px 10px #9AACFF;
+  cursor: pointer;
+}
+
+.typo-box main:hover {
+  font-variation-settings: "wght"100, "ital"0;
+  text-shadow: none;
+}
+
+/*---------버튼-------*/
+.up-btn {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  position: fixed;
+  bottom: 0;
+  right: 4%;
+  opacity: 1;
+  visibility: hidden;
+  transition: 0.4s;
+  z-index: 1000;
+
+}
+
+.up-btn.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(-20px);
+  /*  밑에서 위로 올라오게 하기.  */
+}

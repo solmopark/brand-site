@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>about-page|비상업적 가시안이며 취업지원 포트폴리오 용도로만 사용됩니다.|</title>
+  <!-- 제이쿼리 -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <!-- 테일윈드 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!--link-연결-->
+  <link rel="stylesheet" href="about.css">
+  <script defer type="text/javascript" src="about.js"></script>
+</head>
+</head>
+
+<body>
+  <!--==== about-frist =====-->
+  <section class="about-frist-box ">
+    <!-- up-버튼 -->
+    <img class="up-btn" src="https://cdn.jsdelivr.net/gh/solmopark/brand-site/img/up-img.png" alt="">
+    <!-- about-menu -->
+    <div class="home-bar con flex" style="height:1080px;">
+      <video autoplay muted loop src="https://cdn.jsdelivr.net/gh/solmopark/brand-site/video/ABOUT-VIDEO.mp4"
+        class="absolute" style="top:0; left:0;"></video>
+      <img src="https://cdn.jsdelivr.net/gh/solmopark/brand-site/img/ab-out.png" alt="" class="about-title absolute"
+        style="top:469px; left:591px;">
+
+      <!-- left-item -->
+      <div class="left-item flex flex-col gap-4 "
+        style="margin-top:100px; margin-bottom:100px; margin-left:100px; padding:29px; z-index:10;">
+        <!-- menu-logo -->
+        <div class="menu-logo" style="padding:20px; padding-top:16px; padding-left:42px;">
+          <a href="#" class=""><img src="https://cdn.jsdelivr.net/gh/solmopark/brand-site/img/menu-gray.png" alt=""></a>
+        </div>
+
+        <!-- menu -->
+        <div class="menu-box" style="padding:15px;">
+          <ul class="menu-1 ">
+            <li><a href="branding.html">Branding</a></li>
+            <li><a href="about.html" class="af-1">About</a></li>
+            <li><a href="process.html">Process</a></li>
+            <li><a href="Portfolio.html">Portfolio</a></li>
+            <li><a href="Collect.html" class="af-1">Collect</a></li>
+          </ul>
+        </div>
+
+        <!-- menu-line -->
+        <div class="flex-1 flex justify-center">
+          <div style="width:1px;" class="bg-black"></div>
+        </div>
+
+      </div>
+
+      <div class="flex-grow" style="margin-top:100px; margin-bottom:100px;"></div>
+
+      <!-- right-item -->
+      <div class="right-item flex flex-col "
+        style="margin-top:100px; margin-right:100px; margin-bottom:100px; padding-top:45px; padding-left:45px; padding-right:50px; z-index:11;">
+        <!-- main-logo -->
+        <div class="logo-2 flex-1 ">
+          <a href="index.html" class=""><img src="https://cdn.jsdelivr.net/gh/solmopark/brand-site/img/logo-black.png"
+              alt=""></a>
+        </div>
+        <div class="one-1 flex flex-col">
+          <a href=""><span>●</span></a>
+          <a href=""><span>●</span></a>
+          <a href=""><span>●</span></a>
+          <a href=""><span>●</span></a>
+          <a href=""><span>●</span></a>
+        </div>
+
+        <!-- 마우스-스크롤 -->
+        <div class="mouse-scroll flex-1 flex items-end">
+          <div class="scroll-box relative" style="width:30px; margin-left:18px;">
+            <div class="scroll-1">
+              <img src="https://cdn.jsdelivr.net/gh/solmopark/brand-site/img/scroll-img-1.png" alt="" class="absolute"
+                style="top:-40px; left:4px;">
+            </div>
+
+            <div class="arrows-1">
+              <div class="a1"></div>
+              <div class="a2"></div>
+              <div class="a3"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Gotowork-->
+      <a href="Portfolio.html" class="absolute " style="bottom:140px; right:250px;"><img
+          src="https://cdn.jsdelivr.net/gh/solmopark/brand-site/img/gtw-black.png" alt=""></a>
+    </div>
+  </section>
+
+  <!-- About-me-2 -->
+  <section class="about-box-2">
+    <div class="about-2 con" style="height:1220px;">
+      <img src="https://cdn.jsdelivr.net/gh/solmopark/brand-site/img/aboutme-2-img.png" alt="">
+
+      <!-- like this -->
+      <nav class="this-box ">
+        <!-- img-box -->
+        <img src="https://cdn.jsdelivr.net/gh/solmopark/brand-site/img/about-devel.png" alt="" class="absolute"
+          style="top:262px; left:411px;">
+        <!-- 움직이는 텍스트 -->
+        <div id="container">
+          <span id="text1"></span>
+          <span id="text2"></span>
+        </div>
+        <svg id="filters">
+          <defs>
+            <filter id="threshold">
+              <feColorMatrix in="SourceGraphic" type="matrix" values="1 0 0 0 0
+									0 1 0 0 0
+									0 0 1 0 0
+									0 0 0 255 -140" />
+            </filter>
+          </defs>
+        </svg>
+
+      </nav>
+
+      <!-- possibility -->
+      <nav class="pos-box">
+        <img src="https://i.imgur.com/6oa8ge7.png" alt="title" class="absolute" style="top:649px; left:302px;">
+        <!-- 그래프 -->
+        <img src="https://cdn.jsdelivr.net/gh/solmopark/brand-site/img/Graph-jib.png" alt="" class="absolute"
+          style="bottom:85px; left:301px;">
+        <img src="https://cdn.jsdelivr.net/gh/solmopark/brand-site/img/Graph-magde.png" alt=""
+          class="pos-mag u--slideLeft absolute" style="bottom:122px; left:605px;" data-aos="fade-in">
+        <!-- 표 -->
+        <img src="https://cdn.jsdelivr.net/gh/solmopark/brand-site/img/table-jib.png" alt="" class="absolute"
+          style="bottom:84px; right:330px;">
+        <img src="https://cdn.jsdelivr.net/gh/solmopark/brand-site/img/table-text.png" alt="" class="absolute"
+          style="bottom:99px; right:300px;">
+        <img src="https://cdn.jsdelivr.net/gh/solmopark/brand-site/img/table-blue.png" alt="" class="absolute "
+          style="bottom:119.5px; right:406.5px;" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1500"
+          data-aos-delay="600">
+      </nav>
+    </div>
+  </section>
+
+  <!-- About-me-3-would be -->
+  <section class="about-box-3 ">
+    <div class="about-3 con  bg-red-300" style="height:1080px;">
+      <img src="https://cdn.jsdelivr.net/gh/solmopark/brand-site/img/a-would.png" alt="">
+      <video muted loop autoplay src="https://cdn.jsdelivr.net/gh/solmopark/brand-site/video/home-main.mp4" alt=""
+        class=" absolute opacity-20  " style="top:0; left:0;"></video>
+
+      <!-- would-be -->
+      <nav class="would-box">
+        <img src="https://cdn.jsdelivr.net/gh/solmopark/brand-site/img/a-1yeas.png" alt="" class="absolute"
+          style="top:276px; left:441.16px;">
+        <img src="https://cdn.jsdelivr.net/gh/solmopark/brand-site/img/a-1year-t.png" alt="" class="absolute"
+          style="top:281px; right:353.5px;">
+
+        <img src="https://cdn.jsdelivr.net/gh/solmopark/brand-site/img/a-5year.png" alt="" class="absolute"
+          style="top:461px; left:402px;">
+        <img src="https://cdn.jsdelivr.net/gh/solmopark/brand-site/img/a-5year-t.png" alt="" class="absolute"
+          style="top:509.72px; right:374px;">
+
+        <img src="https://cdn.jsdelivr.net/gh/solmopark/brand-site/img/a-10year.png" alt="" class="absolute"
+          style="bottom:230.94px; left:405px;">
+        <img src="https://cdn.jsdelivr.net/gh/solmopark/brand-site/img/a-10year-t.png" alt="" class="absolute"
+          style="bottom:221.93px; right:373px;">
+      </nav>
+    </div>
+  </section>
+
+  <!-- About-me-4 -->
+  <section class="about-box-4">
+    <div class="about-4 con" style="height:774px;">
+      <img src="https://cdn.jsdelivr.net/gh/solmopark/brand-site/img/ABOUTME-4.png" alt="" class="absolute">
+
+
+      <!-- 스킬 -->
+      <nav class="skill-box">
+        <img src="https://cdn.jsdelivr.net/gh/solmopark/brand-site/img/about-skill-water.png" alt=""
+          class="skill-water absolute" style="top:294px; left:425px;">
+
+
+        <img src="https://cdn.jsdelivr.net/gh/solmopark/brand-site/img/ABOUTME-skill-t.png" alt="" class="absolute"
+          style="top:333px; right:371.8px;">
+        <img src="https://cdn.jsdelivr.net/gh/solmopark/brand-site/img/jum-img.png" alt="" class="jun-1 absolute"
+          style="top:450px; left:498px;">
+
+      </nav>
+    </div>
+  </section>
+
+  <!-- SEE MORE -->
+  <section class="sm-box">
+    <div class="sm-1 con">
+      <img src="https://cdn.jsdelivr.net/gh/solmopark/brand-site/img/seemore-img.png" alt="">
+
+      <!-- 이동 버튼 -->
+      <nav class="move-box">
+        <a href="process.html">
+          <img src="https://cdn.jsdelivr.net/gh/solmopark/brand-site/img/more-right.png" alt="right" class="absolute"
+            style="top:66.8%; right:22%;">
+          <div class="absolute font-bold" style="top:69%; right:24.9%; font-size:16px;">PROCESS</div>
+        </a>
+        <a href="branding.html">
+          <img src="https://cdn.jsdelivr.net/gh/solmopark/brand-site/img/more-left.png" alt="" class="absolute" style="top:66.8%; left:21.8%; ">
+          <div class="absolute font-bold" style="top:69%; left:24.45%; font-size:16px;">BRANDING</div>
+        </a>
+      </nav>
+    </div>
+  </section>
+</body>
+
+</html>
