@@ -909,3 +909,32 @@ button.swiper-pagination-bullet {
 .menu-box .menu-1>li:hover>.af-1::after {
   width: calc(100% - 55px);
 }
+/* 커서 */
+
+
+.cursor {
+  position:fixed;
+  top:-300px;
+  left:-300px;
+  width:10px;
+  height:10px;
+  border-radius:50%;
+  background-color:rgb(185, 189, 248);
+  pointer-events:none;
+  transform:translateX(-50%) translateY(-50%);
+  z-index: 2000;
+}
+
+.cursor-shadow {
+  position:fixed;
+  top:-300px;
+  left:-300px;
+  width:20px;
+  height:20px;
+  border-radius:50%;
+  border:1px solid #123dfc;
+  pointer-events:none;
+  transform:translateX(-50%) translateY(-50%);
+  transition:top .3s, left .3s;
+  z-index: 1999;
+}
