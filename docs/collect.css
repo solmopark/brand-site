@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+html{
+  scroll-behavior:smooth; 
+}
+@media ( min-width:1900px ) {
+  body {
+    overflow-x:hidden;
+  }
+}
+
+
+html>body{
+  font-family: 'Roboto', sans-serif;
+}
+
+/* 스크롤바 꾸미기 시작 */
+::-webkit-scrollbar-thumb {
+  background-color: rgba(18,61,252,0.9);
+  border-radius: 0;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+:root{
+  --site-width:1920px;
+  overflow-y:overlay;
+}
+
+.con {
+  width: var(--site-width);
+  margin-left: auto;
+  margin-right: auto;	
+  position:relative;
+}
+/*---- home ----*/
+.home-box{
+  height:1080px;
+}
+.home-bar .img-1{
+  opacity:80%;
+}
+
+.left-item .menu-box{
+  padding:20px;
+  
+}
+
+.left-item .menu-box .menu-1 li>a{
+  position:relative;
+  color:#c8c8c8;
+  font-weight:400;
+  padding:14px;
+  display:block;
+  white-space:nowrap;
+  transition: font-size .3s;
+  font-size:16px;
+}
+
+.left-item .menu-box .menu-1 li:hover>a{
+  color:black;
+  font-weight:800;
+  transform:scale(1.2);
+}
+
+/* 메뉴-밑줄 */
+.menu-box .menu-1 > li > a::after {
+  content:"";
+  position:absolute;
+  bottom:50%;
+  left:50%;
+  height:1px;
+  background-color:#000000;
+  transition: width .3s;
+  transform:translateX(-50%);
+}
+.menu-box .menu-1 > li > .af-1::after {
+  content:"";
+  position:absolute;
+  bottom:50%;
+  left:42%;
+  height:1px;
+  background-color:#000000;
+   transition: width .3s;
+  transform:translateX(-50%);
+}
+
+.menu-box .menu-1 > li:hover > a::after{
+  width:calc(100% - 15px);
+}
+.menu-box .menu-1 > li:hover >.af-1::after{
+  width:calc(100% - 32px);
+}
+.bg-white{
+  margin-right:28px;
+  margin-bottom:12px;
+}
+
+/* 외쪽 아이콘 */
+.left-item .icon-box{
+  padding-left:35px;
+}
+
+.left-item .icon-box .ico_1 li{
+  padding-top:18px;
+}
+
+/* 오른쪽-메뉴 */
+.right-item{
+  margin-top:100px; 
+  margin-right:100px; 
+  margin-bottom:100px; 
+  padding-top:45px; 
+  padding-left:45px; 
+  padding-right:50px;
+  
+}
+
+.right-item .one-1{
+  padding:25px;
+  padding-bottom:60px;
+}
+
+.right-item .one-1 li a{
+  text-align: center;
+  padding-top:18px;
+  padding-bottom:18px;
+}
+
+
+.contact-box .nemo-box{
+  width:1720px;
+  height:880px;
+  top:100px;
+  left:100px;
+  border:1px solid #c8c8c8;
+  border-radius:20px;
+}
+
+/* 돌려돌려 */
+.contact-1{
+  width:900px;
+  height:900px;
+  position:absolute;
+  top:90px;
+  left:280px;
+}
+
+.contact-1 svg{
+  font-weight:800;
+  font-size:20px;
+}

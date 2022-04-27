@@ -75,6 +75,19 @@ function animate() {
 
 animate();
 
+//그래프
+setTimeout(function(){
+
+$('.bar').each(function(i){
+  
+  var $bar = $(this);
+  setTimeout(function(){
+    $bar.css('width', $bar.attr('data-percent'));      
+  }, i*100);
+});
+
+}, 1000)
+
 // up 버튼
 $(document).ready(function () {
   $(".up-btn").click(function () {

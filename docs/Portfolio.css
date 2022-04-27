@@ -19,7 +19,7 @@ html>body {
 
 /* 스크롤바 꾸미기 시작 */
 ::-webkit-scrollbar-thumb {
-  background-color: rgba(45, 45, 45, 0.3);
+  background-color: rgba(18,61,252,0.9);
   border-radius: 0;
 }
 
