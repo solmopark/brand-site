@@ -159,3 +159,11 @@ html>body {
   font-weight: 800;
   font-size: 20px;
 }
+
+/* 흑백화 */
+.image-wrapper img {
+  filter : grayscale(90%);
+ }
+ .image-wrapper img:hover {
+   filter : grayscale(0%);
+ }
