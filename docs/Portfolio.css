@@ -56,7 +56,7 @@ Home Slider
 ==================================== */
 
 #home-slider {
-  height: 1080px;
+  height: 900px;
   width: 100%;
   position: relative;
 
@@ -91,7 +91,13 @@ Home Slider
 .swiper-image-six {
   background-image: url(https://cdn.jsdelivr.net/gh/solmopark/brand-site/docs/img/pf-3-3.png);
 }
+.swiper-image-seven {
+  background-image: url(https://cdn.jsdelivr.net/gh/solmopark/brand-site/docs/img/Portfolio-4-3.png);
+}
 
+.swiper-image-eight {
+  background-image: url(https://cdn.jsdelivr.net/gh/solmopark/brand-site/docs/img/Portfolio-4-2.png);
+}
 .swiper-image {
   width: 50%;
   height: 100%;

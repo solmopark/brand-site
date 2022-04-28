@@ -41,7 +41,7 @@ html>body{
 }
 /*---- home ----*/
 .home-box{
-  height:1080px;
+  height:900px;
 }
 .home-bar .img-1{
   opacity:80%;
@@ -51,9 +51,7 @@ html>body{
   padding:20px;
   
 }
-.left-item .menu-box .menu-1 li{
-  padding-top:px;
-}
+
 
 .left-item .menu-box .menu-1 li>a{
   position:relative;
@@ -102,7 +100,6 @@ html>body{
 }
 .bg-white{
   margin-right:28px;
-  margin-bottom:12px;
 }
 
 /* 외쪽 아이콘 */
@@ -111,14 +108,14 @@ html>body{
 }
 
 .left-item .icon-box .ico_1 li{
-  padding-top:18px;
+  padding-top:13px;
 }
 
 /* 오른쪽-메뉴 */
 .right-item{
-  margin-top:100px; 
-  margin-right:100px; 
-  margin-bottom:100px; 
+  margin-top:50px; 
+  margin-right:220px; 
+  margin-bottom:70px; 
   padding-top:45px; 
   padding-left:45px; 
   padding-right:50px;
@@ -127,7 +124,7 @@ html>body{
 
 .right-item .one-1{
   padding:25px;
-  padding-bottom:60px;
+  padding-bottom:70px;
 }
 
 .right-item .one-1 >div{
