@@ -24,7 +24,7 @@ $(document).ready(function ($) {
         $(".pageloader").toggleClass("is-active");
         $(".infraloader").toggleClass("is-active");
         clearTimeout(pageloaderTimeout);
-      }, 700);
+      },700);
     });
   }
 
