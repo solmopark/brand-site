@@ -141,8 +141,8 @@ html>body {
 .bar {
   border-radius: 50px;
   background: #A0B1FE;
-  height: 17px;
-  width: 0%;
+  height: 16px;
+  width: 0;
   animation: bar-move 3s linear;
   animation-delay: 2s;
   animation-iteration-count: 3;
