@@ -125,6 +125,7 @@ html>body{
 .right-item .one-1{
   padding:25px;
   padding-bottom:70px;
+  z-index: ;
 }
 
 .right-item .one-1 >div{
@@ -162,6 +163,7 @@ html>body{
   position:absolute;
   top:50%;
   left:780px;
+  z-index: 20;
 }
 
 
