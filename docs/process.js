@@ -84,8 +84,8 @@ $(document).ready(function ($) {
       addListeners();
 
       function initHeader() {
-        width = window.innerWidth;
-        height = window.innerHeight;
+        width = 1920;
+        height = 900;
         target = { x: 0, y: height };
 
         largeHeader = document.getElementById("large-header");
@@ -117,8 +117,8 @@ $(document).ready(function ($) {
       }
 
       function resize() {
-        width = window.innerWidth;
-        height = window.innerHeight;
+        width = 1920;
+        height = 900;
         largeHeader.style.height = height + "px";
         canvas.width = width;
         canvas.height = height;
@@ -157,7 +157,7 @@ $(document).ready(function ($) {
           if (_this.alpha <= 0) {
             init();
           }
-          _this.pos.y -= _this.velocity;
+          _this.pos.y -= _this.velocity * 2;
           _this.alpha -= 0.0005;
           ctx.beginPath();
           ctx.arc(

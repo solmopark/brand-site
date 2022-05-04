@@ -305,3 +305,8 @@ section.section.section-1.gojung-box {
   transition:top .3s, left .3s;
   z-index: 1999;
 }
+
+#demo-canvas {
+  width:1920px;
+  height:900px;
+}
