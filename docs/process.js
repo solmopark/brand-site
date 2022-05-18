@@ -1,3 +1,5 @@
+
+
 gsap
   .timeline({
     scrollTrigger: {
@@ -157,7 +159,7 @@ $(document).ready(function ($) {
           if (_this.alpha <= 0) {
             init();
           }
-          _this.pos.y -= _this.velocity * 2;
+          _this.pos.y -= _this.velocity * 3;
           _this.alpha -= 0.0005;
           ctx.beginPath();
           ctx.arc(
@@ -215,4 +217,5 @@ $(window).mousemove(function(e) {
     left:e.clientX
   });
 });
+
 AOS.init();
